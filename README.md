@@ -1,7 +1,7 @@
 # PVT Behaviour of Real Gases (Using Cubic EOS)
 
 **CHL2002: Chemical Engineering Thermodynamics**, Prof. S. K. Gupta
-<br> Arushi Jain (2025CH11574) and Pinaki Narula (2025CH71879), Tutorial group 2
+<br> Arushi Jain (2025CH11574) and <br>Pinaki Narula (2025CH71879), <br>Tutorial group 2
 
 Predicts the PVT behaviour and the enthalpy (H) and entropy (S) of real gases using the vdW, RK, SRK and Peng/Robinson cubic equations of state. Substance data (Tc, Pc, ω) are from Table B.1 of the textbook and ideal-gas Cp constants from Table C.1.
 
