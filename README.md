@@ -1,4 +1,4 @@
-# cubic_eos: PVT of real fluids from cubic equations of state
+# PVT of real fluids from cubic equations of state
 
 Single-file Python program, `cubic_eos.py` (numpy; matplotlib only for plots). All species data (89 compounds, book Tables B.1 and C.1) are inside the file. Implements the generic cubic of
 Smith/Van Ness Ch. 3 (Eqs. 3.41-3.51, Table 3.1) for **vdW, RK, SRK, PR**.
