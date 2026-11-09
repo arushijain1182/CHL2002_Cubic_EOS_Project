@@ -271,8 +271,8 @@ for n in r["notes"]:
     st.warning(n)
 
 c = st.columns(5)
-c[0].metric("T", fT(r["T"])); c[1].metric("P", fP(r["P"])); c[2].metric("V", fV(r["V"]))
-c[3].metric("Z", f"{r['Z']:.5f}"); c[4].metric("Density", f"{r['rho']:.4g} mol/L")
+c[0].metric("T", fT(r["T"])); c[1].metric("P", fP(r["P"])); c[2].metric(f"V ({Vu})", f"{ce.V_from_cm3(r['V'], Vu):.6g}")
+c[3].metric("Z", f"{r['Z']:.5f}"); c[4].metric("Density (mol/L)", f"{r['rho']:.4g}")
 c = st.columns(5)
 c[0].metric("H  (J/mol)", f"{r['H']:.6g}" if r["H"] is not None else "n/a")
 c[1].metric("S  (J/mol·K)", f"{r['S']:.5g}" if r["S"] is not None else "n/a")
